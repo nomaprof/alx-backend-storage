@@ -1,0 +1,2 @@
+// lists all documents with name starting by Holberton from a MongoDB database
+db.school.find({name: {$regex: /^Holberton/}})
